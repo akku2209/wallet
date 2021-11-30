@@ -64,7 +64,7 @@ const rpcUrl =  process.env.REACT_APP_NODE_1
 const walletconnect = new WalletConnectConnector({
   rpc: { [chainId]: rpcUrl },
   qrcode: true,
-  // pollingInterval: POLLING_INTERVAL,
+  pollingInterval: POLLING_INTERVAL,
 })
 const connectorsByName: { [connectorName in ConnectorNames]: any } = {
   [ConnectorNames.Injected]: injected,
