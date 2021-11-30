@@ -1,8 +1,11 @@
 {
     "name": "pancake-frontend",
     "version": "0.1.0",
-    "private": true,
     "homepage": ".",
+    "private": true,
+    "engines": {
+    "node": "14.14.0"
+    },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
